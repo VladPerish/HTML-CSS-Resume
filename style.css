@@ -1,1 +1,106 @@
 /* Your CSS styles go here */
+
+body{
+  background-color: grey;
+  text-align: center;
+
+}
+table.li{
+  text-align: center;
+}
+form{
+  text-align: right;
+}
+
+h1{
+  color: purple;
+  padding: 10px;
+}
+
+h2{
+
+  color: blue;
+  padding-left: 15px;
+
+}
+
+.skills{
+
+}
+
+img{
+
+  height: 400px;
+  width: 400px;
+}
+
+th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li{
+  padding: 10px;
+}
+
+@media (max-width:600px) {
+ img{
+    height: 200px;
+    width: 200px;
+
+ }
+ table {
+    border: 0;
+    text-align: center;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+    padding-bottom: 8px;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 25px;;
+    t
+  }
+  table td:before {
+
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+  form{
+    text-align: center;
+  }
+
+}
+
+@media (min-width:601) , (max-width:888px) {
+ img{
+    height: 300px;
+    width: 300px;
+
+  }
+  body{
+    background-color: yellow;
+  }
+
+ }
